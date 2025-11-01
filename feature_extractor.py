@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 # from torchvision.models import resnet18, ResNet18_Weights
-from torchvision.models import resnet101, ResNet101_Weights
+from torchvision.models import resnet152, ResNet152_Weights
 from torch.utils.data import DataLoader
 import numpy as np
 from tqdm import tqdm
@@ -9,8 +9,8 @@ import os
 
 def load_resnet_model(device):
     """Load a pretrained ResNet and remove final classification layer."""
-    weights = ResNet101_Weights.IMAGENET1K_V1
-    resnet = resnet101(weights=weights, progress=False)
+    weights = ResNet152_Weights.IMAGENET1K_V2
+    resnet = resnet152(weights=weights, progress=False)
     model = nn.Sequential(*list(resnet.children())[:-1])  # remove FC layer
     model = model.to(device)
     model.eval()

@@ -1,7 +1,7 @@
 import os
 import numpy as np
 
-def save_features(features, labels, output_dir, prefix="resnet50"):
+def save_features(features, labels, output_dir, prefix="resnet101"):
     """Save extracted features and labels as .npy files."""
     os.makedirs(output_dir, exist_ok=True)
     np.save(os.path.join(output_dir, f"{prefix}_features.npy"), features)

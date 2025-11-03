@@ -1,0 +1,17 @@
+Model,Accuracy,Balanced Accuracy,ROC AUC,F1 Score,Time Taken
+AdaBoostClassifier,1.0,1.0,,1.0,1.2747960090637207
+BaggingClassifier,1.0,1.0,,1.0,1.453566074371338
+BernoulliNB,1.0,1.0,,1.0,1.4625799655914307
+DecisionTreeClassifier,1.0,1.0,,1.0,1.0272831916809082
+DummyClassifier,1.0,1.0,,1.0,1.0261001586914062
+ExtraTreeClassifier,1.0,1.0,,1.0,1.0425217151641846
+ExtraTreesClassifier,1.0,1.0,,1.0,1.0872790813446045
+GaussianNB,1.0,1.0,,1.0,1.1973092555999756
+KNeighborsClassifier,1.0,1.0,,1.0,1.8406140804290771
+LabelPropagation,1.0,1.0,,1.0,2.8751721382141113
+LabelSpreading,1.0,1.0,,1.0,2.736280918121338
+LinearDiscriminantAnalysis,1.0,1.0,,1.0,4.9789347648620605
+RandomForestClassifier,1.0,1.0,,1.0,1.044680118560791
+RidgeClassifier,1.0,1.0,,1.0,1.1428518295288086
+RidgeClassifierCV,1.0,1.0,,1.0,1.7877700328826904
+LGBMClassifier,1.0,1.0,,1.0,12.669206857681274

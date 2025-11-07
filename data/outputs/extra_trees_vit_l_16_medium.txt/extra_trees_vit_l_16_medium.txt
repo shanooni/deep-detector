@@ -1,0 +1,10 @@
+extra_trees_vit_l_16_medium,5225.64,0.7125
+              precision    recall  f1-score   support
+
+           0       0.75      0.64      0.69      1000
+           1       0.68      0.79      0.73      1000
+
+    accuracy                           0.71      2000
+   macro avg       0.72      0.71      0.71      2000
+weighted avg       0.72      0.71      0.71      2000
+
